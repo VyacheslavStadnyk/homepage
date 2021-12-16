@@ -135,7 +135,7 @@ body {
       border-color: var(--text-decoration-color);
   }
 
-/*Intro and skills styles*/
+/*Intro, skills and events styles*/
 
 .intro {
     display: flex;
@@ -170,6 +170,17 @@ body {
 }
 
 .skills__text {
+    color: var(--secondary-text-color);
+    text-align: justify;
+}
+
+.events__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.events__text {
     color: var(--secondary-text-color);
     text-align: justify;
 }
